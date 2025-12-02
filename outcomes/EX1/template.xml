@@ -1,7 +1,62 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
-        <p>Simplify <m>{{sum}}</m>.</p>
+        <p>Consider the following two games of chance.</p>
+        <list>
+            <!-- {{#games}} -->
+            <item>
+                <p>
+                    Game {{label}}:
+                    <!-- {{#actionA}} -->
+                    <!-- {{#coin}} -->
+                    a two-sided coin is flipped
+                    <!-- {{/coin}} -->
+                    <!-- {{#die}} -->
+                    a six-sided die is rolled
+                    <!-- {{/die}} -->
+                    <!-- {{#dice}} -->
+                    a pair of six-sided dice are rolled
+                    <!-- {{/dice}} -->
+                    <!-- {{#card}} -->
+                    a card is drawn from a standard 52-card deck
+                    <!-- {{/card}} -->
+                    <!-- {{/actionA}} -->
+                    and
+                    <!-- {{#actionB}} -->
+                    <!-- {{#coin}} -->
+                    a two-sided coin is flipped.
+                    <!-- {{/coin}} -->
+                    <!-- {{#die}} -->
+                    a six-sided die is rolled.
+                    <!-- {{/die}} -->
+                    <!-- {{#dice}} -->
+                    a pair of six-sided dice are rolled.
+                    <!-- {{/dice}} -->
+                    <!-- {{#card}} -->
+                    a card is drawn from a standard 52-card deck.
+                    <!-- {{/card}} -->
+                    <!-- {{/actionB}} -->
+                    the player earns <m>{{points}}</m> points if
+                    <!-- {{#scenarioA}} -->
+                    <!-- {{#onehalf}} -->
+                    <!-- {{#actionA}} -->
+                    <!-- {{#coin}} -->
+                    a two-sided coin is flipped
+                    <!-- {{/coin}} -->
+                    <!-- {{#die}} -->
+                    a six-sided die is rolled
+                    <!-- {{/die}} -->
+                    <!-- {{#dice}} -->
+                    a pair of six-sided dice are rolled
+                    <!-- {{/dice}} -->
+                    <!-- {{#card}} -->
+                    a card is drawn from a standard 52-card deck
+                    <!-- {{/card}} -->
+                    <!-- {{/actionA}} -->
+                </p>
+            </item>
+            <!-- {{/games}} -->
+        </list>
     </content>
     <outtro>
         <p><m>{{result}}</m></p>
