@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
+    <title>Games of Chancek</title>
+    <slug>games-of-chance</slug>
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
-            <title>Sample Outcome</title>
+            <title>Games of Chance</title>
             <slug>EX1</slug>
             <path>outcomes/EX1</path>
             <description>
-Simplify the sum of two monomials.
+Compare two games of chance.
             </description>
         </outcome>
     </outcomes>
